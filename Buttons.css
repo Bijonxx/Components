@@ -486,7 +486,7 @@ button {
 }
 
 .btn_positive:hover img { 
-  content: url(/icons/positive\ light.svg);
+  content: url(icons/positive\ light.svg);
   transform: scale(1.2);
 }
 
@@ -522,7 +522,7 @@ button {
 }
 
 .btn_negative:hover img {
-  content: url(/icons/negative\ light.svg);
+  content: url(icons/negative\ light.svg);
   transform: scale(1.2);
 }
 
@@ -562,7 +562,7 @@ button {
 }
 
 .btn_warning:hover img {
-  content: url(/icons/warning\ light.svg);
+  content: url(icons/warning\ light.svg);
   transform: scale(1.2);
 }
 
