@@ -20,29 +20,60 @@
 
       <div class="content">
         <div class="container_fill">
-          <input class="input_default" type="text" placeholder="Enter text..."><!-- input -->
+          <input class="input_default base" type="text" placeholder="Enter text..."><!-- input -->
         </div>
-        <p class="base">Used for primary CTA's - when user needs to perform an action,
-          like initiating a new flow</p>
+        <p class="base">Used for primary CTA's - when user needs to perform an action, like initiating a new flow</p>
       </div>
 
       <div class="content">
-        
         <div class="container_fill">
-          <div class="input_wrapper">
-            <img src="/icons/Name=Add, filled=true.svg" alt="" class="input_icon">
-            <input  type="text" placeholder="Enter text..."><!-- input -->
+          <div class="input_leading_icon">
+            <img src="icons/Name=Add, filled=true.svg" alt="" class="input_icon">
+            <input class="base" type="text" placeholder="Enter text..."><!-- input with leading icon -->
           </div>
         </div>
-        <p class="base">Used for primary CTA's - when user needs to perform an action,
-          like initiating a new flow</p>
+        <p class="base">Used for primary CTA's - when user needs to perform an action, like initiating a new flow</p>
       </div>
 
-      
-    
-    </div>
+      <div class="content">
+        <div class="container_fill">
+          <div class="custom_select">
+            <div class="custom_select_trigger">
+              <span class="base">Select an option</span>
+              <img src="icons/chevron down.svg" class="select_chevron" alt="">
+            </div>
+            <ul class="custom_options">
+              <li class="custom_option base" data-value="1">Option 1</li>
+              <li class="custom_option base" data-value="2">Option 2</li>
+              <li class="custom_option base" data-value="3">Option 3</li>
+            </ul>
+          </div>
+        </div>
+        <p class="base">Used for multiple options</p>
+      </div>
 
-    
-  
+    </div>
+  </div><!-- grid -->
+
+  <div class="grid">
+
+    <div class="input_group">
+
+      <div class="content">
+        <div class="container_fill">
+          <div class="input_url">
+            <span class="url_prefix base">http://</span>
+            <input class="base" type="url" placeholder="www.example.com"><!-- url input -->
+          </div>
+        </div>
+        <p class="base">Used for link inputs — only accepts valid URLs</p>
+      </div>
+
+    </div><!-- input_group -->
+
+  </div><!-- grid -->
+
+  <script src="Inputfields.js"></script>
+
 </body>
 </html>
